@@ -17,7 +17,7 @@ function Cart() {
             <div><img className="h-12" src={cartitem.image} alt='' /></div>
             <div>{cartitem.title}</div>
             <div>{cartitem.price}</div>
-            <div><button onClick={()=>handleRemove(cartitem.id)} className="bg-purple-600 px-2 py-2 text-white">Remove</button></div>
+            <div><button onClick={()=>handleRemove(cartitem.id)} className="bg-green px-2 py-2 text-white">Remove</button></div>
           </div>
         ))
       }

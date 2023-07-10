@@ -40,7 +40,7 @@ function Product() {
                <div className="flex justify-center items-center my-2"><img className="h-24" src={product.image} alt='' /></div>
                <div className="text-gray-800 my-2 ">{product.title}</div>
                <div className="text-gray-800 my-2 ">Price:{product.price}</div>
-               <div onClick={()=>handleAdd(product)} className="flex justify-center items-center"> <button className=' py-2 rounded hover:bg-purple-500 bg-purple-600 text-white cursor-pointer px-4'>Add to Cart</button></div>
+               <div onClick={()=>handleAdd(product)} className="flex justify-center items-center"> <button className=' py-2 rounded hover:bg-green bg-green text-white cursor-pointer px-4'>Add to Cart</button></div>
            
             </div>
           ))  
