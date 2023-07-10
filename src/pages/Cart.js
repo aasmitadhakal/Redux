@@ -8,12 +8,12 @@ function Cart() {
   }
   return (
     <>
-    <div>Cart</div>
+    <div className="text-green font-medium text-xl flex justify-center items-center">Cart</div>
     <div >
-      <div className="bg-gray-100 grid grid-cols-1">
+      <div className=" grid grid-cols-1">
       {
         cartitem.map(cartitem=>(
-          <div className="bg-white mx-12 my-4 flex justify-around p-4">
+          <div className="bg-white mx-12 my-4 flex justify-around p-4 border " >
             <div><img className="h-12" src={cartitem.image} alt='' /></div>
             <div>{cartitem.title}</div>
             <div>{cartitem.price}</div>
